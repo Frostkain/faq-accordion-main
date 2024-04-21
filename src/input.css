@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@layer base {
+  @font-face {
+    font-family: "Work Sans";
+    src: url(assets\fonts\WorkSans-VariableFont_wght.ttf);
+  }
+
+  /* @font-face {
+        font-family: "work-sans-italic";
+        font-style: 400, 600, 700;
+        font-style:normal;
+        font-display: swap;
+        src: url(assets\fonts\WorkSans-Italic-VariableFont_wght.ttf);
+    } */
+}
